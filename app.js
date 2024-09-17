@@ -13,9 +13,9 @@ app.get('/',(req,res)=>{
 
 app.post('/scoredat',(req,res)=>{
     console,log(req.body);
-    res.send('scoredat received..!');
+    res.send('scoredat was now received..!');
 })
-
+// another changes #2
 app.get('/fill',(req,res)=>{
     res.send(
         '<form action="/submit" method="POST"><input type="text" name="Name"/><button>Submit</button></form>'
