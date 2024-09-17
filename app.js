@@ -13,7 +13,7 @@ app.get('/',(req,res)=>{
 
 app.post('/scoredat',(req,res)=>{
     console,log(req.body);
-    res.send('scoredat received..!');
+    res.send('scoredat was now received..!');
 })
 
 app.get('/fill',(req,res)=>{
